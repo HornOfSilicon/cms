@@ -39,7 +39,7 @@ After clicking that button, you’ll authenticate with GitHub and choose a repos
 
 ### Access Locally
 ```
-$ git clone https://github.com/[GITHUB_USERNAME]/[REPO_NAME].git
+$ git clone https://github.com/HornOfSilicon/cms.git
 $ cd [REPO_NAME]
 $ yarn
 $ npm run start
