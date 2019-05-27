@@ -11,13 +11,13 @@ intro:
   blurbs:
     - image: /img/code-girl.jpeg
       text: >
-        Lead by group of senior and lead software engineers, we conduct events that enhance our skills as team and individuals.
+        Lead by a group of senior and lead software engineers, we conduct events that enhance our skills as a team and individuals.
     - image: /img/cloud-compute.jpg
       text: >
-        We aim to contribute to open source projects that address serious problems in Horn of Africa
+        We contribute to open source projects that solve challenging problems in the Horn of Africa.
     - image: /img/laptop.jpg
       text: >
-        We use a point system to encourage our members to contribute and register their personal development
+        We use a point system to encourage our members to contribute and register their personal development.
     - image: /img/group.jpg
       text: >
         We believe in a broad eco-system where we cooperate with organizations that want to support and be part of our activities.
