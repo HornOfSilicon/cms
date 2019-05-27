@@ -4,6 +4,8 @@ import { Link } from 'gatsby'
 import logo from '../img/icon.png'
 import github from '../img/github-icon.svg'
 import twitter from '../img/social/twitter.svg'
+import slack from '../img/social/slack.svg'
+import email from '../img/social/email.svg'
 
 const Footer = class extends React.Component {
   render() {
@@ -28,19 +30,14 @@ const Footer = class extends React.Component {
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/about">
-                        About
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/products">
-                        Products
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/contact/examples">
-                        Form Examples
-                      </Link>
+                      <a
+                        className="navbar-item"
+                        href="mailto:accounts@hornofsilicon.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Email
+                      </a>
                     </li>
                     <li>
                       <a
@@ -56,20 +53,6 @@ const Footer = class extends React.Component {
                 </section>
               </div>
               <div className="column is-4">
-                <section>
-                  <ul className="menu-list">
-                    <li>
-                      <Link className="navbar-item" to="/blog">
-                        Latest Stories
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/contact">
-                        Contact
-                      </Link>
-                    </li>
-                  </ul>
-                </section>
               </div>
               <div className="column is-4 social">
                 <a title="Github" href="https://github.com/hornofsilicon">
@@ -84,6 +67,22 @@ const Footer = class extends React.Component {
                     className="fas fa-lg"
                     src={twitter}
                     alt="Twitter"
+                    style={{ width: '1em', height: '1em' }}
+                  />
+                </a>
+                <a title="slack" href="https://hornofsilicon.slack.com">
+                  <img
+                    className="fas fa-lg"
+                    src={slack}
+                    alt="slack"
+                    style={{ width: '1em', height: '1em' }}
+                  />
+                </a>
+                <a title="email" href="mailto:accounts@hornofsilicon.com">
+                  <img
+                    className="fas fa-lg"
+                    src={email}
+                    alt="email us"
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
